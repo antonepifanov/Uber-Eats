@@ -59,7 +59,7 @@ a img {
 /*Главный блок сайта*/
 main {
 	background-color: #FFFFFF;
-	padding:54px 0 100px 0;
+	padding:54px 0 80px 0;
 	margin-top: 72px;
 }
 
@@ -81,3 +81,21 @@ main {
 	display: none;
 }
 
+	/* Список ресторанов*/
+h1 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin:56px 0 0;
+}
+
+
+
+/* Медиазапросы*/
+@media screen and (max-width: 320px) {
+	.basket {
+		display: none;
+	}
+}
