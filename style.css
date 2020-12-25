@@ -1,5 +1,5 @@
 body {
-	font-family: Roboto, sans-serif;
+	font-family: Roboto, sans-serif !important;
 }
 
 .contain {
@@ -8,14 +8,14 @@ body {
 	margin:0 auto;
 }
 
+/*Шапка*/
 header {
 	background-color: #FFFFFF;
 	position:fixed;
+	top:0;
 	width:100%;
 	padding:16px 0;
 	box-shadow: 0px 0px 16px 0px rgba(38,38,38,0.16);
-
-
 }
 
 .fix_block {
@@ -42,6 +42,7 @@ a img {
 
 .enter:hover {
 	background:#E0E0E0; 
+	transition: 0.5s;
 }
 
 .enter:active {
@@ -53,5 +54,30 @@ a img {
 	vertical-align: middle;
 	padding:0 10px;
 	margin-left:8px;
+}
+
+/*Главный блок сайта*/
+main {
+	background-color: #FFFFFF;
+	padding:54px 0 100px 0;
+	margin-top: 72px;
+}
+
+	/*Поле поиска*/
+.search input {
+	width: 100%;
+	padding:4px 0 2px;
+	border:none;
+	font-size: 16px;
+	border-bottom: 1px #B5B5B5 solid;
+	outline:none;
+}
+
+.search input::-webkit-input-placeholder {
+	color:#B5B5B5;
+}
+
+.search input::-webkit-search-cancel-button {
+	display: none;
 }
 
