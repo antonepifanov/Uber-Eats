@@ -8,6 +8,10 @@ body {
 	margin:0 auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Шапка*/
 header {
 	background-color: #FFFFFF;
@@ -91,6 +95,42 @@ h1 {
 	margin:56px 0 0;
 }
 
+	/*Блок с карточками ресторанов*/
+.card {
+	padding-bottom: 20px;
+	margin-top:16px;
+}
+
+.card__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.card__name {
+	font-size: 16px;
+	color:#1D1D1D;
+	line-height: 24px;
+	margin-top:16px;
+}
+
+.card__menu {
+	font-size: 14px;
+	color:#626262;
+	line-height: 21px;
+	margin-top:4px;
+}
+
+.card__time {
+	font-size: 13px;
+	color:#1D1D1D;
+	line-height: 21px;
+	margin-top:4px;
+}
+
+.card:hover {
+	background-color: #E0E0E0;
+	transition: 0.5s;
+}
 
 
 /* Медиазапросы*/
