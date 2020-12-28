@@ -132,6 +132,12 @@ h1 {
 	transition: 0.5s;
 }
 
+/*Footer*/
+footer {
+	background-color: #262626;
+	padding:56px 0 28px;
+}
+
 
 /* Медиазапросы*/
 @media screen and (max-width: 320px) {
