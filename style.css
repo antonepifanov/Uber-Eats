@@ -171,6 +171,7 @@ form div:before{
   position: absolute;
   left: 16px;
   top: 12px;
+  pointer-events:none;
 }
 
 form div:after{
