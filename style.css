@@ -135,12 +135,23 @@ h1 {
 /*Footer*/
 footer {
 	background-color: #262626;
-	padding:56px 0 28px;
+	padding-top:56px;
 }
 
 .inform {
 	margin-top:40px;
-	padding-top:32px;
+	
+}
+
+.main {
+	border-top:#979797 1px solid;
+	border-bottom:#979797 1px solid;;
+	padding-top:39px;
+	padding-bottom: 16px;
+}
+
+form {
+	margin-top:-7px;
 }
 
 .lang {
@@ -198,7 +209,7 @@ form div:after{
 }
 
 .links {
-	margin-top: 17px;
+	margin: 17px 0 39px;
 }
 
 .links__list {
@@ -223,9 +234,42 @@ form div:after{
 .links__item:last-child:hover {
 	background-image: url('img\\instagram.png');
 }
+
+.about p, .help p {
+	color:white;
+	font-size: 13px;
+	line-height: 15px;
+	margin:0 0 23px;
+}
+
+.socium {
+	text-align: center;
+}
+
+.socium a {
+	display: inline-block;
+	margin:40px 20px;
+}
+
+.other {
+	padding:40px 0;
+	border-top:#979797 1px solid;
+}
+
+.other p {
+	color:white;
+	font-size: 11px;
+	line-height: 13px;
+}
 /* Медиазапросы*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 355px) {
 	.basket {
 		display: none;
+	}
+	.socium a {
+		margin:24px 12px;
+	}
+	.socium a img {
+		height:36px;
 	}
 }
