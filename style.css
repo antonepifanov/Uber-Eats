@@ -4,6 +4,7 @@ body {
 
 .contain {
 	max-width: 956px;
+	box-sizing: border-box;
 	padding: 0 8px;
 	margin:0 auto;
 }
@@ -262,6 +263,64 @@ form div:after{
 	font-size: 11px;
 	line-height: 13px;
 }
+
+/*Страница ресторана*/
+.main__page {
+	margin-top:72px;
+}
+
+.hero {
+	background:#0C5E90 url('img\\bg.jpg') center center;
+	padding: 80px 0;
+	background-size: cover;
+}
+
+.card__restr {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	padding:38px 0;
+}
+
+.restr__name {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0em;
+	margin:0;
+	margin-bottom: 40px;
+}
+
+.descrip {
+	display: flex;
+	align-items:center;
+	margin:auto;
+}
+
+.kitchen {
+	color:#626262;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	margin:0;
+}
+
+.time {
+	font-family: Roboto;
+	font-size: 12px;
+	background-color: #262626;
+	border-radius: 16px;
+	font-weight: 400;
+	line-height: 14px;
+	padding:9px 16px;
+	color:white;
+	margin:0;
+}
+ 
 /* Медиазапросы*/
 @media screen and (max-width: 355px) {
 	.basket {
