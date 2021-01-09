@@ -2,6 +2,12 @@ body {
 	font-family: Roboto, sans-serif !important;
 }
 
+h1,h2,h3, p {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
 .contain {
 	max-width: 956px;
 	box-sizing: border-box;
@@ -359,6 +365,51 @@ form div:after{
 	line-height: 34px;
 	margin:56px 0;
 }
+
+.food-list__wrapper{
+	padding-bottom: 31px;
+}
+
+.food-list{
+	margin: 0;
+	padding: 0;
+}
+
+.food-list__item{
+	list-style: none;
+	display:flex;
+	justify-content: space-between;
+	border:1px solid RGBA(117,117,117,0.2);
+	border-radius: 2px;
+	margin-bottom: 49px;
+}
+
+.item-descrip{
+	padding: 16px 0 16px 16px;
+	display:flex;
+	flex-direction: column;
+}
+
+.item-tittle{	
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.item-descrip p{
+	color:#626262;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.price {
+	margin-top: auto;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 21px;
+}
+
+
+
 /* Медиазапросы*/
 @media screen and (max-width: 575px) {
 	.basket {
@@ -398,6 +449,19 @@ form div:after{
 		right:0;
 		margin: auto;
 	}
+	.food-list__wrapper{
+		padding-bottom: 24px;
+	}
+	.food-list__item{
+		margin-bottom: 16px;
+		border-left: none;
+		border-top: none;
+		border-right: none;
+	}
+	.item-tittle{	
+		font-size: 14px;
+		line-height: 24px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -409,5 +473,11 @@ form div:after{
 	.card__restr {
 		padding-left: 29px;
 		padding-right: 52px;
+	}
+	.food-list__wrapper{
+		padding-bottom: 16px;
+	}
+	.food-list__item{
+		margin-bottom: 32px;
 	}
 }
