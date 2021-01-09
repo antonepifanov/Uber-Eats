@@ -343,8 +343,21 @@ form div:after{
 	white-space: nowrap;
 }
 
-.list-page a:visited {
+.list-page a {
+	color:inherit;
+}
+.list-page a:hover {
 	color:#327430;
+}
+
+/* Блок закусок*/
+.food h2{
+	color:#1D1D1D;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+	margin:56px 0;
 }
 /* Медиазапросы*/
 @media screen and (max-width: 575px) {
@@ -369,8 +382,29 @@ form div:after{
 	.list-page {
 		display: none;
 	}
+	.food h2 {
+		text-align: center;
+		position: relative;
+		margin-bottom:56px;
+	}	
+	.food h2::after{
+		content: "";
+		background-image: url('img/line.png');
+		position: absolute;
+		width: 50px;
+		height: 1px;
+		bottom:-12px;
+		left:0;
+		right:0;
+		margin: auto;
+	}
 }
 
+@media screen and (max-width: 767px) {
+	.list__item {
+		margin-right: 33px;
+	}
+}
 @media screen and (min-width: 576px) and (max-width: 991px) {
 	.card__restr {
 		padding-left: 29px;
