@@ -384,6 +384,11 @@ form div:after{
 	margin-bottom: 49px;
 }
 
+.food-list__item:hover{
+	background-color: #E0E0E0;
+	transition: 0.5s;
+}
+
 .item-descrip{
 	padding: 16px 0 16px 16px;
 	display:flex;
@@ -408,7 +413,24 @@ form div:after{
 	line-height: 21px;
 }
 
+/*Кнопка наверх*/
+.up-button {
+	width:80px;
+	height:80px;
+	position:fixed;
+	bottom:24px;
+	right:16px;
+	background-color: #59BD5A;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 2px;
+}
 
+.up-button a {
+	position: absolute;
+	top: 35%;
+	left:40%;
+}
 
 /* Медиазапросы*/
 @media screen and (max-width: 575px) {
