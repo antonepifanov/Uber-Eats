@@ -280,7 +280,7 @@ form div:after{
 }
 
 .hero {
-	background:#0C5E90 url('img\\bg.jpg') center center;
+	background: url('img\\bg.jpg') center center;
 	padding: 80px 0;
 	background-size: cover;
 }
